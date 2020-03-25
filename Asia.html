@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Asia</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="jquery-3.3.1.js"></script>
+
+<link rel="stylesheet" type="text/css" href="tabgal.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+.header {
+    background-color:#585858 ;background-image:url("img1/lit1.jpg");
+    
+
+    
+    padding: 40px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1 style="color:black;">Culture of Asia</h1>
+</div>
+
+<div class="topnav">
+ <a href="file:///C:/Users/User/Desktop/project/index.html">Home</a>
+<a class="active" href="file:///C:/Users/User/Desktop/project/Asia.html"">Asia</a>
+  
+  <a href="#Affrica">Affrica</a>
+  <a href="#America">America</a>
+<a href="#Europe">Europe</a>
+
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  
+<div class="column">
+    <img src="img1/holi.jpg" alt="holi festival" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img1/perahera11.jpg" alt="Perahera" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img1/images5.jpg" alt="Food" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img1/download3.jpg" alt="Drama" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script><br><br><br>
+
+
+<p>
+The continent of Asia is commonly divided into geographic and cultural subregions, including Central Asia, East Asia, North Asia, South Asia, 
+Southeast Asia, and West Asia. While linked together on a geographical continent, there has been little unity or common history between the many cultures and peoples
+ there. Asian art, music, and cuisine, as well as literature are all important parts of Asian culture. Eastern philosophy and religion, including Hinduism, Taoism, Confucianism, Buddhism,
+ Judaism, and Islam, also play major roles. One of the most complex parts of modern Asian culture is the East-West dichotomy, as increasing Western influence clashes with traditional ideals.
+
+
+</p>
+<h2>Asian Traditions</h2>
+<h3>Buddhism</h3><p> While there are as as many religions in Asia as there are anywhere else, Buddhism is one of the predominant ones. Buddhism was established in northern India about 2500 years ago in response to the life and teachings of Gautama Siddhartha who was given the title "Buddha" or "awakened-one."</p>
+<h3>Dim Sum</h3><P> A traditional Chinese meal that consists of lots of small dishes of a bunch of different kinds of foods, including steamed or fried dumplings.</p>
+<h3>Tea</h3><p>Tea plays a major role in Asian culture - whether it's in China, India or Malaysia - tea ceremonies, in their various forms, are a major part of most Asian cultures.</p>
+<h3>Origami</h3><p> Origami is the art of folding paper. While it is quite popular in Japan, it is believed to have originated in China in the first century AD. One of the most popular origami shapes is the crane. The crane is thought to be a sacred animal in Japan and legend has it that if you fold 1,000 paper cranes, your wish will come true.</p>
+
+
+</body>
+</html>
